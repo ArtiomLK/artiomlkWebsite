@@ -2,24 +2,17 @@
 <?php
 if (isset($_POST['action'])) {
     switch ($_POST['action']) {
-        case 'insert':
-            insert();
-            break;
-        case 'select':
-            select();
+        case 'submit':
+            submit();
             break;
     }
 }
 
-function select() {
-    echo "The select function is called.";
+function submit() {
+    echo "My apologies but this is only a test, thus I will not get any message by now. Contact me through my Social Media Accounts";
     exit;
 }
 
-function insert() {
-    echo "The insert function is called.";
-    exit;
-}
 ?>
 
 
