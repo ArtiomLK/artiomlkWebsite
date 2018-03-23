@@ -1,0 +1,38 @@
+  nav ul a,
+  nav .brand-logo {
+    color: white;
+  }
+
+  p {
+    line-height: 2rem;
+  }
+
+  .icon-block .material-icons {
+    font-size: inherit;
+  }
+
+  footer.page-footer {
+    margin: 0;
+  }
+
+/*STICKY FOOTER*/
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+/*EDUCATION*/
+.subTitlesFormat {  color: #0277bd;}
+.subinnerTitlesFormat {  color: #00897b;}
+
+/*SKILLS*/
+.skillsSubTitlesNoviceFormat        {  color: #81d4fa;}
+.skillsSubTitlesIntermediateFormat  {  color: #29b6f6;}
+.skillsSubTitlesAdvancedFormat      {  color: #039be5;}
+
+.skillsSubTitlesGeneralFormat {  color: #039be5;}
