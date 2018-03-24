@@ -43,16 +43,16 @@
         <h2 class ="center-align cyan-text text-darken-1">Contact Form</h2>
 
         <div class="row">
-          <form class="col s12" method="POST">
+          <form class="col s12" method="POST" action="https://formspree.io/koretskiartiom2@gmail.com">
             <div class="row">
               <div class="input-field col m6 s12">
                 <i class="material-icons prefix">account_circle</i>
-                <input id="first_name" type="text" class="validate" required>
+                <input id="first_name" name="First Name" type="text" class="validate" required>
                 <label for="first_name">First Name</label>
               </div>
 
               <div class="input-field col m6 s12">
-                <input id="last_name" type="text" class="validate" required>
+                <input id="last_name" name="Last Name" type="text" class="validate" required>
                 <label for="last_name">Last Name</label>
               </div>
             </div>
@@ -60,27 +60,28 @@
             <div class="row">
               <div class="input-field col m6 s12">
                 <i class="material-icons prefix">email</i>
-                <input id="email" type="email" class="validate" required>
+                <input id="email" name="_replyto" type="email" class="validate" required>
                 <label for="email">Email</label>
               </div>
               <div class="input-field col m6 s12">
                 <i class="material-icons prefix">smartphone</i>
-                <input id="company" type="tel" class="validate">
+                <input id="company" name="Phone" type="tel" class="validate">
                 <label for="company">Phone (optional)</label>
               </div>
             </div>
 
             <div class="row">
               <div class="input-field col s12">
-                <textarea id="message" class="materialize-textarea" data-length="3000" required></textarea>
+                <textarea id="message" name="Message" class="materialize-textarea" data-length="3000" required></textarea>
                 <label for="message">Message</label>
               </div>
             </div>
 
+            <div class="g-recaptcha" data-sitekey="6LdGXk4UAAAAAI3692PHOHxmAJZVMWxeZ9MpGRb1"></div>
+
             <div class="row">
               <div class="col m12">
                 <p class="center-align">
-                  <div class="g-recaptcha" data-sitekey="6LdGXk4UAAAAAI3692PHOHxmAJZVMWxeZ9MpGRb1"></div>
                   <button class="btn btn-large waves-effect waves-light" id="submit" type="submit" name="action">Send Message</button>
                 </p>
               </div>
