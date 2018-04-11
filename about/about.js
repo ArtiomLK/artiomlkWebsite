@@ -17,6 +17,10 @@
         year18APlayer.playVideo();
       } 
     },
+      {selector: '#year23B',  offset: 500, callback: function(el) {
+        showView(el);
+      } 
+    },
     	{selector: '#year23A', offset: $(window).height() - $(window).height()/3, callback: function(el) {
     		showView(el);
     		year18APlayer.pauseVideo();
